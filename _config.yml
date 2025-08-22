@@ -4,3 +4,21 @@ description: >-
 baseurl: "" # leave empty since this is your user page
 url: "https://YOURUSERNAME.github.io" # replace YOURUSERNAME with your GitHub username
 theme: jekyll-theme-minima # replace minima with your chosen theme from the list
+on:
+  push:
+  pull_request:
+    types: [opened, synchronize]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: script/cibuild
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2
+          bundler-cache: true
+      - name: build
+        run: script/bootstrap
+      - name: test
+        run: script/cibuild
