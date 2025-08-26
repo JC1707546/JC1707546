@@ -9,4 +9,4 @@ title: Home
 Click here to learn more → [About Me](about.md)
 [About Me](about.md)
 ## Go to coding notebook
-[Coding Notebook] (notebook.md)
+[Coding Notebook](notebook.md)
