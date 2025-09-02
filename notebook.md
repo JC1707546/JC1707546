@@ -206,17 +206,17 @@ Keep it simple, consistent, and clear.
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           |                                                  |                                           |
-| MaterialApp      |                                                  |                                           |
-| Scaffold         |                                                  |                                           |
-| StatelessWidget  |                                                  |                                           |
-| StatefulWidget   |                                                  |                                           |
-| Navigator        |                                                  |                                           |
-| AppBar           |                                                  |                                           |
+| Widget           |   Basic building block of a flutter app.               text,image,container,columm
+| MaterialApp      |   The root of the app. Sets up routes and themes       found in main,dart                                                                                   
+| Scaffold         |   provides basic visual layout                         each screen uses it                      |                                           |
+| StatelessWidget  |   a widget that doesent change                         most of the screen files                     |                                           |
+| StatefulWidget   |   a widget that can change over time                   used in MyHomePage()                            |                                           |
+| Navigator        |   manages screen transitions                           Navigator.pushNamed(context, '/page2');                    |                                           |
+| AppBar           |   top navigation bar                                   title of each page appears here            |                                           |
 | Column           |     vertical layout                                                                                       
 | Row              |    horizontal layout|
 | Container        |    wraps content with padding,margain, or color                                              |                                           
-| Text             |     displays text                                             |                                           |
+| Text             |     displays text                                             |                                           
 | Image.network    |    displays images from a URL                                                                                         
 | Padding    |            adds space around a widget      
 | Center |               centers its child         |                     |
