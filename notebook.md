@@ -1,40 +1,3 @@
-## Flutter Notes
-
-### What is Flutter?
-- Definition:
-- Why is it useful?
-
----
-
-### Key Terms and Definitions
-
-| Term             | Definition                                      | Example / Notes                          |
-|------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           |                                                  |                                           |
-| MaterialApp      |                                                  |                                           |
-| Scaffold         |                                                  |                                           |
-| StatelessWidget  |                                                  |                                           |
-| StatefulWidget   |                                                  |                                           |
-| Navigator        |                                                  |                                           |
-| AppBar           |                                                  |                                           |
-| Column           |                                                  |                                           |
-| Row              |                                                  |                                           |
-| Container        |                                                  |                                           |
-| Text             |                                                  |                                           |
-| Image.network    |                                                  |                                           |
-
-| Padding    |                    |                     |
-
-| Center |                        |                     |
-
----
-
-### Layout and Design Widgets
-- How do you center a widget?
-- How do you align something to the left or right?
-- What widget adds space around content?
-
-At the top, begin a table of contents, Ex.:
 ## Table of Contents
 - [Day 1](#day-1)
   - [Notes](#notes)
@@ -116,3 +79,153 @@ Variables
 - Loops
 - Conditionals
  
+
+✅ Checklists
+When to use: Track progress on assignments or tasks.
+
+✅ Example:
+
+[x] Complete coding warm-up
+- [ ] Finish project draft
+- [ ] Reflect on learning
+
+ 
+
+➡️ Blockquotes
+When to use: Call out notes, reminders, or teacher comments.
+
+✅ Example:
+
+> 💡 Remember: Loops repeat code until a condition is false.
+
+ 
+
+📊 Tables
+When to use: Compare values, track progress, or organize data neatly.
+
+✅ Example:
+
+| Task        | Status   | Notes          |
+|-------------|----------|----------------|
+| Homework 1  | Done ✅  | Submitted      |
+| Homework 2  | Pending  | Needs review   |
+
+ 
+
+🔗 Links & Images
+When to use: Add references, resources, or visuals.
+
+✅ Example:
+
+[Java Docs](https://docs.oracle.com/javase/8/docs/api/)  
+![Markdown Logo](https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg)
+
+ 
+
+📂 Collapsible Sections
+When to use: Hide solutions, extended notes, or extra details.
+
+✅ Example:
+
+<details>
+  <summary>Click to reveal solution</summary>
+  
+System.out.println("Answer: 42");
+
+</details>
+
+ 
+
+📝 Footnotes
+When to use: Add references or side notes without cluttering the page.
+
+✅ Example:
+
+This concept is related to object-oriented programming.[^1]
+
+[^1]: See "Objects and Classes" in your textbook.
+
+ 
+
+🎯 Style Rules
+Consistency matters more than creativity
+
+Always use headings to structure your notes.
+
+Always use code blocks for multi-line code.
+
+Clarity first
+
+Bold key terms.
+
+Use lists instead of long sentences when outlining steps.
+
+Professional tone
+
+Don’t mix casual notes with formal work in the same section.
+
+Use blockquotes for reflections or teacher feedback.
+
+Track your learning
+
+Use checklists to mark what’s done.
+
+Use collapsible sections if you want to hide answers until review time.
+
+ 
+
+✅ Bottom Line:
+
+Headings = Structure
+
+Bold/Italic = Emphasis
+
+Code blocks = Code
+
+Lists = Steps/Ideas
+
+Tables = Organization
+
+Checklists = Progress
+
+Blockquotes = Notes/Tips
+
+Collapsible = Hide/Show detail
+
+Keep it simple, consistent, and clear.
+## Flutter Notes
+
+### What is Flutter?
+- Definition:
+- Why is it useful?
+
+---
+
+### Key Terms and Definitions
+
+| Term             | Definition                                      | Example / Notes                          |
+|------------------|--------------------------------------------------|-------------------------------------------|
+| Widget           |                                                  |                                           |
+| MaterialApp      |                                                  |                                           |
+| Scaffold         |                                                  |                                           |
+| StatelessWidget  |                                                  |                                           |
+| StatefulWidget   |                                                  |                                           |
+| Navigator        |                                                  |                                           |
+| AppBar           |                                                  |                                           |
+| Column           |                                                  |                                           |
+| Row              |                                                  |                                           |
+| Container        |                                                  |                                           |
+| Text             |                                                  |                                           |
+| Image.network    |                                                  |                                           |
+
+| Padding    |                    |                     |
+
+| Center |                        |                     |
+
+---
+
+### Layout and Design Widgets
+- How do you center a widget?
+- How do you align something to the left or right?
+- What widget adds space around content?
+
