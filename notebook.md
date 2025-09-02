@@ -1,8 +1,8 @@
 ## Table of Contents
-- [Flutter Notes].(#flutter-notes)
-- [What is Flutter?] (#What-is-flutter)
-- [Key Terms and Definitions] (#key-terms-and-definition)
-- {Day 2](#day-2)
+- [Flutter Notes](#flutter-notes)
+- [What is Flutter?](#What-is-flutter)
+- [Key Terms and Definitions](#key-terms-and-definition)
+- [Day 2](#day-2)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
 [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
