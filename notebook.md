@@ -197,8 +197,8 @@ Keep it simple, consistent, and clear.
 ## Flutter Notes
 
 ### What is Flutter?
-- Definition:
-- Why is it useful?
+- Definition: A framwork made by google for building apps that work on web, Android, IOS,-With one codebase
+- Why is it useful?:less time, and money
 
 ---
 
@@ -213,15 +213,13 @@ Keep it simple, consistent, and clear.
 | StatefulWidget   |                                                  |                                           |
 | Navigator        |                                                  |                                           |
 | AppBar           |                                                  |                                           |
-| Column           |                                                  |                                           |
-| Row              |                                                  |                                           |
-| Container        |                                                  |                                           |
-| Text             |                                                  |                                           |
-| Image.network    |                                                  |                                           |
-
-| Padding    |                    |                     |
-
-| Center |                        |                     |
+| Column           |     vertical layout                                                                                       
+| Row              |    horizontal layout|
+| Container        |    wraps content with padding,margain, or color                                              |                                           
+| Text             |     displays text                                             |                                           |
+| Image.network    |    displays images from a URL                                                                                         
+| Padding    |            adds space around a widget      
+| Center |               centers its child         |                     |
 
 ---
 
