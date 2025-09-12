@@ -35,18 +35,18 @@ When to use: Highlight important ideas or add emphasis
 | variable     | A named container used to store a value that may change. | `var x = 5;` |goals in soccer  |  |
 | constant     | A fixed value that cannot change once set. | `const PI = 3.14;` |  |username  |
 | data type     | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
-|      | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
-|      | Whole number values. | `int age = 16;` |  |  |
-|      | Number values with decimals. | `double age = 16.2;` |  |  |
-|      | A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
-|      | A collection of values in a specific order. | `List<String> names = [];` |  |  |
-|      | A special value that means “nothing.” | `String? name = null;` |  |  |
-|      | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
-|      | The information passed into a function to change how it works. | `greet(String name)` |  |  |
-|      | The result a function gives back. | `return total;` |  |  |
-|      | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
-|      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
-|      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
+| string     | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
+| integer     | Whole number values. | `int age = 16;` |  |  |
+| Double     | Number values with decimals. | `double age = 16.2;` |  |  |
+| Boolean     | A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
+| List     | A collection of values in a specific order. | `List<String> names = [];` |  |  |
+| Null     | A special value that means “nothing.” | `String? name = null;` |  |  |
+| Function     | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
+| Parameter     | The information passed into a function to change how it works. | `greet(String name)` |  |  |
+| Return     | The result a function gives back. | `return total;` |  |  |
+| Scope     | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
+| Class     | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
+| Object     | A specific version of a class. | `Dog myDog = Dog();` |  |  |
 |      | A variable that belongs to a class/object. | `String name;` |  |  |
 |      | A function that belongs to a class. | `void bark() {}` |  |  |
 |      | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
@@ -233,20 +233,20 @@ Keep it simple, consistent, and clear.
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           |   Basic building block of a flutter app.               text,image,container,columm
-| MaterialApp      |   The root of the app. Sets up routes and themes       found in main,dart                                                                                   
-| Scaffold         |   provides basic visual layout                         each screen uses it                      |                                           |
-| StatelessWidget  |   a widget that doesent change                         most of the screen files                     |                                           |
-| StatefulWidget   |   a widget that can change over time                   used in MyHomePage()                            |                                           |
-| Navigator        |   manages screen transitions                           Navigator.pushNamed(context, '/page2');                    |                                           |
-| AppBar           |   top navigation bar                                   title of each page appears here            |                                           |
-| Column           |     vertical layout                                                                                       
-| Row              |    horizontal layout|
-| Container        |    wraps content with padding,margain, or color                                              |                                           
-| Text             |     displays text                                             |                                           
-| Image.network    |    displays images from a URL                                                                                         
-| Padding    |            adds space around a widget      
-| Center |               centers its child         |                     |
+| Widget           |   Basic building block of a flutter app.              | text,image,container,columm
+| MaterialApp      |   The root of the app. Sets up routes and themes      | found in main,dart                                                                                   
+| Scaffold         |   provides basic visual layout                        | each screen uses it                      |                                           |
+| StatelessWidget  |   a widget that doesent change                        | most of the screen files                     |                                           |
+| StatefulWidget   |   a widget that can change over time                  | used in MyHomePage()                            |                                           |
+| Navigator        |   manages screen transitions                          | Navigator.pushNamed(context, '/page2');                    |                                           |
+| AppBar           |   top navigation bar                                  | title of each page appears here            |                                           |
+| Column           |     vertical layout                                   |  organize vertically                                                   
+| Row              |    horizontal layout                                 | organize horizontally
+| Container        |    wraps content with padding,margain, or color       |  wraps content with padding, margin, or color | lets you style                                      |                                           
+| Text             |     displays text                                     |  labels, titals, paragraphs      |                                           
+| Image.network    |    displays images from a URL                         |  load an image from link                                                              
+| Padding    |            adds space around a widget                       |     
+| Center |               centers its child         |                       |
 
 ---
 
