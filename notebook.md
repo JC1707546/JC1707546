@@ -5,7 +5,7 @@
 - [Day 2](#day-2)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 - [Code Definitions](#code_definitions)
-[Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
+- [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 ## Markdown Style Guide for Coding Notebooks
 
 Follow this guide to keep your coding notebook **clear, consistent, and professional**.  
@@ -28,13 +28,13 @@ This ensures your notes are easy for you (and others) to read later.
 ### Practice
 
 🔡 Text Formatting
-When to use: Highlight important ideas or add emphasis.
-
+When to use: Highlight important ideas or add emphasis
+## Code Definitions
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
 | variable     | A named container used to store a value that may change. | `var x = 5;` |goals in soccer  |  |
-|      | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
-|      | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
+| constant     | A fixed value that cannot change once set. | `const PI = 3.14;` |  |username  |
+| data type     | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
 |      | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
 |      | Whole number values. | `int age = 16;` |  |  |
 |      | Number values with decimals. | `double age = 16.2;` |  |  |
