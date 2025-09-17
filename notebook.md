@@ -3,7 +3,7 @@
 - [What is Flutter?](#What-is-flutter)
 - [Key Terms and Definitions](#key-terms-and-definition)
 - [Layout and Design Widgets](layout-and-design-widgets)
-- [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
+- [Definitions with Structures](#flutter-definitions-with-structures)
 - [Code Definitions](#code_definitions)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 ## Markdown Style Guide for Coding Notebooks
