@@ -1,11 +1,103 @@
 ## Table of Contents
-- [Flutter Notes](#flutter-notes)
-- [What is Flutter?](#What-is-flutter)
-- [Key Terms and Definitions](#key-terms-and-definition)
-- [Layout and Design Widgets](layout-and-design-widgets)
-- [Definitions with Structures](#flutter-definitions-with-structures)
-- [Code Definitions](#code_definitions)
+- [Flutter notes](#flutter-notes)
+  - [What is Flutter?](#what-is-flutter)
+  - [Key Terms and Definitions](#key-terms-and-definitions)
+  - [Layout and Design Widgets](#layout-and-design-widgets)
+  - [Definitions with Structures](#flutter-definitions-with-structures)
+- [Code Definitions](#code-definitions)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
+
+## Flutter notes
+
+### What is Flutter
+- Definition:
+- Why is it usefull
+
+---
+
+### Key Terms and Defintitions 
+
+| Term             | Definition                                      | Example / Notes                          |
+|------------------|--------------------------------------------------|-------------------------------------------|
+| Widget           | Basic building block of a flutter app. Everything is a widget. | text, image, container, column
+| MaterialApp      | The root of the app. Sets up routes and themes. | Found in main.dart
+| Scaffold         | Provides basic visual layout -- like a header, body, floating button | Each screen uses it
+| StatelessWidget  | A widget that doesnt change | most of the screen files
+| StatefulWidget   | A widget that can change over time | Used in MyHomePage()
+| Navigator        | Manage screen transitions | Predifined keyboard shortcuts
+| AppBar           | Top navigation bar | 
+| Column           | Vertical layout | organize vertically
+| Row              | Horizontal layout | organize horizontally
+| Container        | wraps content with padding, margin, or color | lets you style
+| Text             | Displays text | labels, titals, paragraphs
+| Image.network    | Displays images from a URL | load an image from link
+| Padding          |                    |                     |
+| Center           |                        |                     |
+
+
+---
+
+### Layout and Design Widgets
+- How do you center a widget?
+- How do you align something to the left or right?
+- What widget adds space around content?
+
+## Flutter Definitions with Structure
+
+| Term | Definition and Description | Base Structure | Real Life Example | App Example |
+|------|----------------------------|----------------|-------------------|-------------|
+| main | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
+| materialapp | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
+| scaffold | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
+| column | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
+| row | A widget that shows things side-by-side. | `Row(...)` |  |  |
+| container | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
+| text | A widget to display text on the screen. | `Text('Hello')` |  |  |
+| image.network | A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |  |
+| elevatedbutton | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
+| onPressed | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
+| statelessWidget | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |  |
+| statefullwidget | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
+| navigator | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
+| padding | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
+| center | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
+| wrap | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
+| @override | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
+| build | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
+| buildcontext | Required in every widget class to describe what to show. | `build` |  |  |
+|  | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
+|  | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
+| const | A keyword that means the value won't change and is set once. | `const` |  |  |
+
+## Code Definitions
+
+| Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
+|------|------------|--------------------------|-------------------|-------------|
+| variable | A named container used to store a value that may change. | `var x = 5;` |goals in soccer  |  |
+| constatnt | A fixed value that cannot change once set. | `const PI = 3.14;` |username  |  |
+| data type | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |levels  |  |
+| strings | A sequence of characters used to represent words or text. | `"Hello World"` |texts  |  |
+| integer | Whole number values. | `int age = 16;` |every day  |  |
+| double | Number values with decimals. | `double age = 16.2;` |smooth movement  |  |
+| boolean | A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
+| list | A collection of values in a specific order. | `List<String> names = [];` |contacts  |  |
+| null | A special value that means “nothing.” | `String? name = null;` |placeholder  |  |
+| function | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |jump  |  |
+| parameter | The information passed into a function to change how it works. | `greet(String name)` |run or walk  |  |
+| return | The result a function gives back. | `return total;` |recepte  |  |
+| scope | Where a variable or function can be used. | (No set syntax — concept-based) |starbucks gift card  |  |
+| class | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |class  |  |
+| object | A specific version of a class. | `Dog myDog = Dog();` |students  |  |
+| property | A variable that belongs to a class/object. | `String name;` |plane seats  |  |
+| method | A function that belongs to a class. | `void bark() {}` |notes  |  |
+| constructor | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
+| abstraction | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
+| override | Changing how a built-in or inherited function behaves. | `@override` |  |  |
+| void | A function that does not return a value. | `void printMessage() {}` |  |  |
+
+
+
+
 ## Markdown Style Guide for Coding Notebooks
 
 Follow this guide to keep your coding notebook **clear, consistent, and professional**.  
@@ -28,34 +120,7 @@ This ensures your notes are easy for you (and others) to read later.
 ### Practice
 
 🔡 Text Formatting
-When to use: Highlight important ideas or add emphasis
-## Code Definitions
-| Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
-|------|------------|--------------------------|-------------------|-------------|
-| variable     | A named container used to store a value that may change. | `var x = 5;` |goals in soccer  |  |
-| constant     | A fixed value that cannot change once set. | `const PI = 3.14;` |  |username  |
-| data type     | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
-| string     | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
-| integer     | Whole number values. | `int age = 16;` |  |  |
-| Double     | Number values with decimals. | `double age = 16.2;` |  |  |
-| Boolean     | A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
-| List     | A collection of values in a specific order. | `List<String> names = [];` |  |  |
-| Null     | A special value that means “nothing.” | `String? name = null;` |  |  |
-| Function     | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
-| Parameter     | The information passed into a function to change how it works. | `greet(String name)` |  |  |
-| Return     | The result a function gives back. | `return total;` |  |  |
-| Scope     | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
-| Class     | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
-| Object     | A specific version of a class. | `Dog myDog = Dog();` |  |  |
-| Property     | A variable that belongs to a class/object. | `String name;` |  |  |
-| Method     | A function that belongs to a class. | `void bark() {}` |  |  |
-| Constructor     | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
-| Abstraction    | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
-| Overide     | Changing how a built-in or inherited function behaves. | `@override` |  |  |
-| Void     | A function that does not return a value. | `void printMessage() {}` |  |  |
-
-
-
+When to use: Highlight important ideas or add emphasis.
 
 Use bold for key terms or definitions.
 
@@ -221,37 +286,5 @@ Blockquotes = Notes/Tips
 Collapsible = Hide/Show detail
 
 Keep it simple, consistent, and clear.
-## Flutter Notes
 
-### What is Flutter?
-- Definition: A framwork made by google for building apps that work on web, Android, IOS,-With one codebase
-- Why is it useful?:less time, and money
-
----
-
-### Key Terms and Definitions
-
-| Term             | Definition                                      | Example / Notes                          |
-|------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           |   Basic building block of a flutter app.              | text,image,container,columm
-| MaterialApp      |   The root of the app. Sets up routes and themes      | found in main,dart                                                                                   
-| Scaffold         |   provides basic visual layout                        | each screen uses it                      |                                           |
-| StatelessWidget  |   a widget that doesent change                        | most of the screen files                     |                                           |
-| StatefulWidget   |   a widget that can change over time                  | used in MyHomePage()                            |                                           |
-| Navigator        |   manages screen transitions                          | Navigator.pushNamed(context, '/page2');                    |                                           |
-| AppBar           |   top navigation bar                                  | title of each page appears here            |                                           |
-| Column           |     vertical layout                                   |  organize vertically                                                   
-| Row              |    horizontal layout                                 | organize horizontally
-| Container        |    wraps content with padding,margain, or color       |  wraps content with padding, margin, or color | lets you style                                      |                                           
-| Text             |     displays text                                     |  labels, titals, paragraphs      |                                           
-| Image.network    |    displays images from a URL                         |  load an image from link                                                              
-| Padding    |            adds space around a widget                       |     
-| Center |               centers its child         |                       |
-
----
-
-### Layout and Design Widgets
-- How do you center a widget?
-- How do you align something to the left or right?
-- What widget adds space around content?
 
